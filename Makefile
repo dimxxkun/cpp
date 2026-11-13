@@ -1,7 +1,7 @@
 CXX ?= g++
 CXXFLAGS ?= -std=c++17 -Wall -Wextra -pedantic -Iinclude -O2
 SRC = src/main.cpp src/math_utils.cpp
-TARGET = bin/cpp_quickstart
+TARGET = bin/cpp_app
 
 .PHONY: all clean run
 

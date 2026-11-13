@@ -68,3 +68,4 @@ std::optional<Statistics> calculate_stats(const std::vector<double>& values) {
 }
 
 } // namespace math
+

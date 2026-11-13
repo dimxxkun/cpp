@@ -1,11 +1,11 @@
-# C++ Quickstart
+# C++
 
 A clean modern C++ starter repository demonstrating C++17 conventions, header/implementation separation, CMake configuration, Makefile support, and a vector/statistics CLI utility.
 
 ## Project Structure
 
 ```
-cpp-quickstart/
+cpp/
 ├── CMakeLists.txt
 ├── Makefile
 ├── README.md
@@ -31,7 +31,7 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-./cpp_quickstart
+./cpp_app
 ```
 
 ### Using Makefile (Linux / macOS / MinGW):
@@ -44,8 +44,8 @@ make run
 ### Using direct g++ command:
 
 ```bash
-g++ -std=c++17 -Iinclude src/main.cpp src/math_utils.cpp -o bin/cpp_quickstart
-./bin/cpp_quickstart
+g++ -std=c++17 -Iinclude src/main.cpp src/math_utils.cpp -o bin/cpp_app
+./bin/cpp_app
 ```
 
 ## License

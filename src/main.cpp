@@ -4,7 +4,7 @@
 
 int main() {
     std::cout << "=========================================\n";
-    std::cout << "   C++ Quickstart - Math & Vectors CLI   \n";
+    std::cout << "     C++ - Math & Vectors CLI          \n";
     std::cout << "=========================================\n\n";
 
     math::Vector3 v1(1.0, 2.0, 3.0);
@@ -31,3 +31,4 @@ int main() {
     std::cout << "\nC++ operations executed successfully!\n";
     return 0;
 }
+
