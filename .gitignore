@@ -1,0 +1,23 @@
+# Build and binary folders
+bin/
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Object and executable files
+*.o
+*.obj
+*.exe
+*.out
+*.dylib
+*.dll
+*.so
+
+# IDE and editor files
+.idea/
+.vscode/
+*.vcxproj*
+*.sln
+.vs/
